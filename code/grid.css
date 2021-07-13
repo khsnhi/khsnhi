@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+/*reset CSS*/
+body{
+	margin: 50px;
+	font-family: 'Jost', sans-serif;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 45% 25% auto;
+	height: 500px;
+	color: white;
+}
+.kovien{
+	background-color:#2FBECB;
+	text-align: center;
+		
+}
+.item1{
+	grid-row-start:1 ;
+	grid-row-end:6;
+	background-image: url("../hinh anh/alex-perez-NLUkAA-nDdE-unsplash.jpg");
+	background-size:cover;
+	background-position: center;
+	padding-top: 40px;
+}
+.item1 ul li{
+	display: inline;
+	padding: 0px 20px 0 20px;	
+}
+.arrow{
+	height: 60px;
+	position: absolute;
+	left: 50px;
+	top: 490px;
+	 
+}
+
+.item2{
+	grid-row-start:1 ;
+	grid-row-end:4;
+	padding: 0 20px 0 20px;
+	text-align: justify;
+
+}
+.item2 h2{
+	position: relative;
+	top: 120px;
+}
+.item2 p{
+	position: relative;
+	top: 120px;
+}
+.item3{
+	grid-row-start:4 ;
+	grid-row-end:6;
+	background-image: url("../hinh anh/ryan-wilson-YdpDztAnW9w-unsplash.jpg");
+	background-size: cover;
+}
+.item4{
+	grid-row-start:1 ;
+	grid-row-end:3;
+	background-image: url("../hinh anh/joseph-greve-TII6axq3eo4-unsplash.jpg");
+	background-size: cover;
+	
+}
+.item5{
+	grid-row-start:3 ;
+	grid-row-end:5;
+	background-image: url("../hinh anh/ethan-robertson-SYx3UCHZJlo-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.item6{
+	padding: 20px 40px 0px 40px;
+	text-align: justify;
+}
