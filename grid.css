@@ -19,7 +19,7 @@ body{
 .item1{
 	grid-row-start:1 ;
 	grid-row-end:6;
-	background-image: url("../hinh anh/alex-perez-NLUkAA-nDdE-unsplash.jpg");
+	background-image: url("alex-perez-NLUkAA-nDdE-unsplash.jpg");
 	background-size:cover;
 	background-position: center;
 	padding-top: 40px;
@@ -54,20 +54,20 @@ body{
 .item3{
 	grid-row-start:4 ;
 	grid-row-end:6;
-	background-image: url("../hinh anh/ryan-wilson-YdpDztAnW9w-unsplash.jpg");
+	background-image: url("ryan-wilson-YdpDztAnW9w-unsplash.jpg");
 	background-size: cover;
 }
 .item4{
 	grid-row-start:1 ;
 	grid-row-end:3;
-	background-image: url("../hinh anh/joseph-greve-TII6axq3eo4-unsplash.jpg");
+	background-image: url("joseph-greve-TII6axq3eo4-unsplash.jpg");
 	background-size: cover;
 	
 }
 .item5{
 	grid-row-start:3 ;
 	grid-row-end:5;
-	background-image: url("../hinh anh/ethan-robertson-SYx3UCHZJlo-unsplash.jpg");
+	background-image: url("ethan-robertson-SYx3UCHZJlo-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
 }
